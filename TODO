@@ -1,0 +1,8 @@
+TODO:
+* finish code modularization
+* check memory allocations. Fluxconf should not leak memory
+* write appropriate documentation
+
+WISHLIST
+* split the code into two parts : engine / gui
+* write a Qt gui (not planned at all)

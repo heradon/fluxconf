@@ -1,0 +1,86 @@
+AC_INIT(fluxconf,0.9.9.2)
+AM_INIT_AUTOMAKE
+
+AC_PROG_CC
+AM_PROG_CC_STDC
+AC_PROG_INSTALL
+AC_PROG_LN_S
+
+AC_HEADER_STDC
+AC_CHECK_HEADERS([stdlib.h string.h strings.h])
+
+AM_GNU_GETTEXT(external)
+AM_GNU_GETTEXT_VERSION(0.14.5)
+#localedir='${prefix}/${DATADIRNAME}/locale'
+#AC_SUBST(localedir)
+
+AC_FUNC_MALLOC
+AC_CHECK_FUNCS([memset strcasecmp])
+
+dnl AC_CHECK_HEADERS(gtk/gtk.h)
+
+AC_PATH_PROGS(GTKCONF,gtk-config)
+AC_PATH_PROGS(GTKCONFBSD,gtk12-config)
+AC_PATH_PROGS(PKGCONF,pkg-config)
+
+CFLAGS="$CFLAGS -DLOCALEDIR=\\\"${datadir}/locale\\\""
+
+NOTFOUND="1"
+
+CFLAGS="$CFLAGS -ansi -Wall -W"
+
+AC_ARG_WITH(pkgconfig,
+        [--without-pkgconfig    force the use of gtk-config (helps on some systems) [defaut=no]],
+        pkgconf="NO", pkgconf="YES")
+
+if test "x$PKGCONF" != "x" && test "x$pkgconf" != "xNO"; then
+	echo "Using pkg-config..."
+	if $PKGCONF gtk+-2.0 ; then
+		echo "Found Gtk2 ! Compiling using Gtk2..."
+		CFLAGS="$CFLAGS -DGTK2 `$PKGCONF --cflags gtk+-2.0`"
+		LDFLAGS="$LDFLAGS `$PKGCONF --libs gtk+-2.0`"
+#		echo $CFLAGS
+#		echo $LDFLAGS
+		NOTFOUND="0"
+	elif $PKGCONF gtk+; then
+		echo "Found Gtk..."
+		CFLAGS="$CFLAGS `$PKGCONF --cflags gtk+`"
+		LDFLAGS="$LDFLAGS `$PKGCONF --libs gtk+`"
+#		echo $CFLAGS
+#		echo $LDFLAGS
+		NOTFOUND="0"
+	else
+		NOTFOUND="1"
+	fi
+fi
+
+if test "$NOTFOUND" = "1"; then
+	if test "x$GTKCONFBSD" != "x"; then
+		echo "Found Gtk (gtk12-config)"
+		CFLAGS="$CFLAGS `$GTKCONFBSD --cflags`"
+		LDFLAGS="$LDFLAGS `$GTKCONFBSD --libs`"
+		echo $CFLAGS
+		echo $LDFLAGS
+		NOTFOUND=0
+	else
+		if test "x$GTKCONF" != "x"; then
+			echo "Found Gtk (gtk-config)"
+			CFLAGS="$CFLAGS `$GTKCONF --cflags`"
+			LDFLAGS="$LDFLAGS `$GTKCONF --libs`"
+#			echo $CFLAGS
+#			echo $LDFLAGS
+			NOTFOUND=0
+		fi
+	fi
+fi
+if test "$NOTFOUND" = "1"; then
+	echo
+	echo "### You don't have a gtk installation which permits devel !!"
+	echo "### Please, get a gtk package with gtk-config or pkg-config conf"
+	echo "### You can also try to compile manually"
+	echo "Get it : http://www.gtk.org"
+	echo
+	exit 1
+fi
+AC_CONFIG_FILES([Makefile docs/Makefile po/Makefile src/Makefile])
+AC_OUTPUT

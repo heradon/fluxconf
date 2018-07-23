@@ -1,0 +1,18 @@
+# $Id: SConscript,v 1.1 2004/02/07 02:01:31 fab Exp $
+# vim:filetype=python
+def die(msg): print "ERROR:",msg; Exit(1)
+
+Import('env')
+env.ParseConfig('pkg-config --cflags --libs gtk+-2.0') 
+#env.PrependENVPath('INCLUDE','src/include')
+
+env.Append(CPPPATH="include")
+
+HEADERS=Split('ctype.h errno.h fcntl.h gtk/gtk.h libgen.h libintl.h stdio.h stdlib.h string.h strings.h sys/param.h sys/stat.h sys/types.h unistd.h')
+
+conf = Configure(env)
+for head in HEADERS:
+    if not conf.CheckCHeader(head) : die('need "%s"'%head)
+env = conf.Finish()
+
+env.Program(target='fluxconf',source=Split('actions.c fluxbare.c fluxconf.c fluxkeys.c fluxmenu.c') )

@@ -1,0 +1,380 @@
+# $Id: fi.po,v 1.1.1.1 2004/02/02 19:45:22 fab Exp $
+# Finnish translation of Fluxconf.
+# Copyleft (C) 2002
+# This file is distributed under the same license as the Fluxconf package.
+# Aki H‰nninen<aki.hanninen@welho.com>, 2002.
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Fluxconf 0.9\n"
+"POT-Creation-Date: 2002-10-31 03:36+0100\n"
+"PO-Revision-Date: 2002-11-01 15:22+0200\n"
+"Last-Translator: Aki Hanninen <aki.hanninen@welho.com>\n"
+"Language-Team: Finnish <fi@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=iso-8859-15\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: fluxconf.c:73
+msgid ""
+"Unable to write the key file\n"
+" Make a copy of the original file to a place you can write\n"
+" Please, run 'fluxconf' to change the location of this file to one you can "
+"write.\n"
+msgstr ""
+"N‰pp‰in-tiedoston kirjoittaminen mahdotonta\n"
+" Kopio alkuper‰inen tiedosto paikkaan, johon sinulla on kirjoitusoikeudet\n"
+" Aja 'fluxconf' muuttaaksesi n‰pp‰in-tiedoston paikan sellaiseksi, johon "
+"sinulla on kirjoitusoikeudet.\n"
+
+#: fluxconf.c:117
+msgid "No more memory :(\n"
+msgstr "Ei vapaata muistia :(\n"
+
+#: fluxconf.c:272
+msgid ""
+"Now you must restart fluxbox\n"
+" (using the root menu, not killing X).\n"
+" Don't forget to press \"Let fluxbox change the conf\" before exiting."
+msgstr ""
+"Nyt sinun pit‰‰ k‰ynnist‰‰ fluxbox uudestaan\n"
+" (k‰ytt‰m‰ll‰ root-valikkoa, ei tappamalla X:‰‰).\n"
+" Muista valita \"Let fluxbox change the conf\" ennen uudelleenk‰ynnistyst‰."
+
+#: fluxconf.c:278
+msgid ""
+"Now you must restart fluxbox (using the root menu, not killing X). Don't "
+"forget to press \"Let fluxbox change the conf\" before exiting."
+msgstr ""
+"Nyt sinun pit‰‰ k‰ynnist‰‰ fluxbox uudestaan (k‰ytt‰m‰ll‰ root-valikkoa, ei "
+"tappamalla X:‰‰). Muista valita \"Let fluxbox change the conf\" ennen "
+"uudelleenk‰ynnistyst‰."
+
+#: fluxconf.c:477
+msgid "(*) is screen independant."
+msgstr "(*) on 'screen independant'"
+
+#: fluxconf.c:493
+msgid "Tab height"
+msgstr "Tabin korkeus"
+
+#: fluxconf.c:493
+msgid "Set the tab's height"
+msgstr "Aseta tabin korkeus"
+
+#: fluxconf.c:496
+msgid "Tab width"
+msgstr "Tabin leveys"
+
+#: fluxconf.c:496
+msgid "Set the tab's width"
+msgstr "Aseta tabin leveys"
+
+#: fluxconf.c:500
+msgid "Edges snap threshold"
+msgstr "Reunan kiinnityskynnys"
+
+#: fluxconf.c:500
+msgid "How many pixels will be magnetic"
+msgstr "Kuinka monta pikseli‰ on magneettisena"
+
+#: fluxconf.c:503
+msgid "Toolbar width (%)"
+msgstr "Tyˆkalurivin leveys"
+
+#: fluxconf.c:503
+msgid "Set the toolbar width"
+msgstr "Aseta tyˆkalurivin leveys"
+
+#: fluxconf.c:506
+msgid "Workspaces"
+msgstr "Tyˆtilat"
+
+#: fluxconf.c:506
+msgid "How many workspaces do you want"
+msgstr "Kuinka monta tyˆtilaa haluat"
+
+#: fluxconf.c:510
+msgid "Autoraise delay (*)"
+msgstr "Automaattisen noston viive"
+
+#: fluxconf.c:510
+msgid "Set the delay for windows to raise"
+msgstr "Aseta ikkunan nousun viive"
+
+#: fluxconf.c:513
+msgid "Double click interval (*)"
+msgstr "Kaksoispainalluksen aikav‰li"
+
+#: fluxconf.c:513
+msgid "Hum... so explicit ;)"
+msgstr "Hmm... niin eksplisiittist‰ ;)"
+
+#: fluxconf.c:516
+msgid "Toolbar on top"
+msgstr "Tyˆkalurivi p‰‰llimm‰isen‰"
+
+#: fluxconf.c:517
+msgid "Toolbar will always stay on top"
+msgstr "Tyˆkalurivi pysyy aina p‰‰llimm‰isen‰"
+
+#: fluxconf.c:522
+msgid "Slit on top"
+msgstr "Slit p‰‰llimm‰isen‰"
+
+#: fluxconf.c:523
+msgid "The dockbar will stay on top"
+msgstr "Dockbar pysyy aina p‰‰llimm‰isen‰"
+
+#: fluxconf.c:528
+msgid "Slit auto hide"
+msgstr "Slitin automaattinen piiloutuminen"
+
+#: fluxconf.c:529
+msgid "The dockbar will autohide"
+msgstr "Dockbar automaattisesti piiloutuu"
+
+#: fluxconf.c:543
+msgid "Slit placement"
+msgstr "Slitin sijoutus"
+
+#: fluxconf.c:543
+msgid "Change the dockbar placement"
+msgstr "Vaihda dockbarin sijoitusta"
+
+#: fluxconf.c:550
+msgid "Slit direction"
+msgstr "Slitin suunta"
+
+#: fluxconf.c:550
+msgid "Change the dockbar orientation"
+msgstr "Muuta dockbarin suuntaa"
+
+#: fluxconf.c:557
+msgid "Row direction"
+msgstr "Rivisijoitus"
+
+#: fluxconf.c:557 fluxconf.c:564
+msgid "Set the window placement direction"
+msgstr "Aseta ikkunoiden sijoitussuunta"
+
+#: fluxconf.c:564
+msgid "Col direction"
+msgstr "Sarakesijoitus"
+
+#: fluxconf.c:572
+msgid "Window placement"
+msgstr "Ikkunan sijoitus"
+
+#: fluxconf.c:572
+msgid "Change the way windows are placed"
+msgstr "Muuta ikkunoiden sijoitustapaa"
+
+#: fluxconf.c:581
+msgid "Focus model"
+msgstr "Kohdistusmenetelm‰"
+
+#: fluxconf.c:581
+msgid "Change the focus method"
+msgstr "Muuta kohdistusmenetelm‰‰"
+
+#: fluxconf.c:585
+msgid "Key file location (*)"
+msgstr "N‰pp‰in-tiedoston sijainti (*)"
+
+#: fluxconf.c:585
+msgid "Change the location of the keybinds file"
+msgstr "Muuta n‰pp‰inkomentojen tiedoston paikkaa"
+
+#: fluxconf.c:587
+msgid "Menu file location (*)"
+msgstr "Valikko-tiedoston paikka (*)"
+
+#: fluxconf.c:587
+msgid "Change the location of the menu file"
+msgstr "Muuta valikko-tiedoston paikkaa"
+
+#: fluxconf.c:589
+msgid "Theme file location (*)"
+msgstr "Teema-tiedoston paikka (*)"
+
+#: fluxconf.c:589
+msgid "Change the location of the theme file"
+msgstr "Muuta teema-tiedoston paikkaa"
+
+#: fluxconf.c:591
+msgid "Time format"
+msgstr "Ajan esitys"
+
+#: fluxconf.c:591
+msgid ""
+"%y:year(YY)\n"
+"%Y:year(YYYY)\n"
+"%m:month\n"
+"%d:day\n"
+"%H:hour(24)\n"
+"%I:hour(12)\n"
+"%M:minutes\n"
+"%p:meridian"
+msgstr ""
+"%y:vuosi(VV)\n"
+"%Y:vuosi(VVVV)\n"
+"%m:kuukausi\n"
+"%d:p‰iv‰\n"
+"%H:tunti(24)\n"
+"%I:tunti(12)\n"
+"%M:minuutit\n"
+"%p:meridiaani"
+
+#: fluxconf.c:596 fluxconf.c:953
+msgid "Save"
+msgstr "Tallenna"
+
+#: fluxconf.c:598
+msgid "Save the state, You'll need to RESTART fluxbox using the menu"
+msgstr "Tallenna tila, sinun pit‰‰ k‰ynnist‰‰ fluxbox uudestaan valikon kautta"
+
+#: fluxconf.c:602
+msgid "Let fluxbox change the conf"
+msgstr "Anna fluxboxin muuttaa asetukset"
+
+#: fluxconf.c:604
+msgid "Once changes take effect, press this before quitting"
+msgstr "Muutosten tultua voimaan, paina t‰t‰ ennen lopettamista"
+
+#: fluxconf.c:623
+msgid "This one is useless...   ;)"
+msgstr "T‰m‰ on turha...   ;)"
+
+#: fluxconf.c:689 fluxconf.c:887 fluxconf.c:903 spegtk2.h:209 spegtk2.h:333
+#, c-format
+msgid "Can't open %s\n"
+msgstr "%s avaaminen ep‰onnistui\n"
+
+#: fluxconf.c:690 fluxconf.c:888 spegtk2.h:210 spegtk2.h:334
+msgid "Make sure you installed fluxbox with this user.\n"
+msgstr "Varmista, ett‰ fluxbox on asennettu t‰lle k‰ytt‰j‰lle\n"
+
+#: fluxconf.c:706 spegtk2.h:347
+#, c-format
+msgid "Can't open %s for writing\n"
+msgstr "Tiedostoa %s ei voida avata kirjoittamista varten\n"
+
+#: fluxconf.c:717 fluxconf.c:719
+msgid "# File generated by FluxConf\n"
+msgstr "# Tiedosto luotu FluxConf-ohjelmalla\n"
+
+#: fluxconf.c:1008 fluxconf.c:1012
+#, c-format
+msgid ""
+"Syntax: %s [-sN]\n"
+" where N is the screen number. (default is 0)\n"
+msgstr ""
+"Ohje: %s [-sN]\n"
+" jossa N on ruudun numero. (oletusarvo on 0)\n"
+
+#: fluxconf.c:1029 fluxconf.c:1034
+#, c-format
+msgid "Unknown executable name \"%s\" !\n"
+msgstr "Tuntematon ajettava tiedosto \"%s\" !\n"
+
+#: spegtk2.h:4
+msgid ""
+"Please, change the menu location with fluxconf to a writable one\n"
+" (e.g ~/.fluxbox/fluxbox-menu).\n"
+"Fluxmenu will then be able to save your fluxbox menu configuration.\n"
+msgstr ""
+"Muuta valikko-tiedoston paikka fluxconf:lla kirjoitettavaan paikkaan\n"
+" (esim. ~/.fluxbox/fluxbox-menu).\n"
+"Fluxmenu voi sen j‰lkeen tallentaa sinun fluxbox-valikon asetukset.\n"
+
+#: spegtk2.h:291
+msgid ""
+"Choices for Type are :\n"
+"nop\n"
+"exec\n"
+"exit\n"
+"style\n"
+"config\n"
+"submenu\n"
+"restart\n"
+"reconfig\n"
+"stylesdir / stylesmenu\n"
+"workspaces"
+msgstr ""
+"Vaihtoehtoja tyypille ovat :\n"
+"nop\n"
+"exec\n"
+"exit\n"
+"style\n"
+"config\n"
+"submenu\n"
+"restart\n"
+"reconfig\n"
+"stylesdir / stylesmenu\n"
+"workspaces"
+
+#: spegtk2.h:401
+msgid "_Save"
+msgstr "_Tallenna"
+
+#: spegtk2.h:405
+msgid "_Add clever"
+msgstr "_Lis‰‰ nokkela"
+
+#: spegtk2.h:409
+msgid "Add s_ub"
+msgstr "Lis‰‰ s_ub"
+
+#: spegtk2.h:413
+msgid "Add _exec"
+msgstr "Add _exec"
+
+#: spegtk2.h:417
+msgid "_Del"
+msgstr "_Poista"
+
+#: spegtk2.h:421
+msgid "_Quit"
+msgstr "_Lopeta"
+
+#: fluxconf.c:73
+msgid ""
+"Unable to write the key file\n"
+"Make a copy of the original file to a place you can write\n"
+"Please, run 'fluxconf' to change the location of this file to one you can "
+"write.\n"
+msgstr ""
+"N‰pp‰in-tiedoston kirjoittaminen mahdotonta\n"
+"Kopio alkuper‰inen tiedosto paikkaan, johon sinulla on kirjoitusoikeudet\n"
+"Aja 'fluxconf' muuttaaksesi n‰pp‰in-tiedoston paikan sellaiseksi, johon "
+"sinulla on kirjoitusoikeudet.\n"
+
+#: fluxconf.c:272
+msgid ""
+"Now you must restart fluxbox\n"
+"(using the root menu, not killing X).\n"
+"Don't forget to press \"Let fluxbox change the conf\" before exiting."
+msgstr ""
+"Nyt sinun pit‰‰ k‰ynnist‰‰ fluxbox uudestaan\n"
+"(k‰ytt‰m‰ll‰ root-valikkoa, ei tappamalla X:‰‰).\n"
+"Muista valita \"Let fluxbox change the conf\" ennen uudelleenk‰ynnistyst‰."
+
+#: fluxconf.c:957
+msgid "Add"
+msgstr "Lis‰‰"
+
+#: fluxconf.c:962
+msgid "Quit"
+msgstr "Lopeta"
+
+#: fluxconf.c:1013 fluxconf.c:1017
+#, c-format
+msgid ""
+"Syntax: %s [-sN]\n"
+"where N is the screen number. (default is 0)\n"
+msgstr ""
+"Ohje: %s [-sN]\n"
+"jossa N on ruudun numero. (oletusarvo on 0)\n"
+
+

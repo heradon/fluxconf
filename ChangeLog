@@ -1,0 +1,153 @@
+** fluxconf 0.9.9.2
+
+Fixed building process again.
+
+** fluxconf 0.9.9.1
+
+Fluxkeys should now support fluxbox 1.0 mouse-related definitions
+
+** fluxconf 0.9.9
+
+Added all actions in
+http://fluxbox-wiki.org/index.php/Howto_edit_the_keys_file
+
+** fluxconf 0.9.8
+
+2004-12-08:
+store all files in user's locale rather than utf8 (Mathias Dufresne <mathias.dufresne@free.fr>)
+add icons support in fluxmenu (Mathias Dufresne <mathias.dufresne@free.fr>)
+add resizable flags to columns in fluxmenu (Mathias Dufresne <mathias.dufresne@free.fr>)
+
+2004-02-07:
+very small fix for filename expansion
+Added preliminary support for scons
+Cleanups, update of possible actions (sync with fluxbox 0.9.8)
+
+** fluxconf 0.9.7b
+2004-02-02:
+Splitted the source into four files. Each tool now has its file, and
+every common define/prototype/structure has been put in a global header
+file.
+Rewritten program detection routine so that it's way easier to add a new
+one. Code is much more readable like this.
+Started code documentation. Many more functions should be documented soon.
+
+** fluxconf 0.9.7a
+2004-02-02:
+Changed a few sprintf() calls into snprintf()
+Replaced various random integer values by MAXPATHLEN when it was making sense
+Moved source files to their own directory, and updated Makefile.am and
+configure.in accordingly
+Changed a few bits in the auto* files, added a clean: rule
+Moved includes and xpm files to their own subdirectory
+Fixed various compile-time warnings
+
+** fluxconf 0.9.7
+2003-12-19:
+Fixed the "~/" expansion bug for fluxmenu
+Now fluxConf will backup your files before writing new ones !
+
+** fluxconf 0.9.6
+2003-12-08:
+Fixed tooltip bug (hour format) (thans to John Bleichert <syborg@earthlink.net>)
+Very small fix for fluxkeys gtk1 users (thanks to Sylvain Colinet <coline_s@epitech.net>)
+
+** fluxconf 0.9.5
+2003-09-24:
+Now if a menu path begins with "~/" it's managed
+Fixed some UTF8 conversions for locale users
+Fixed the "delete root node" bug (thanks to  Johan Åkesson <m0le@home.se> for the bug report)
+Fixed a bad date in the Changelog :P
+
+** fluxconf 0.9.4
+2003-01-20:
+Added "del" button to fluxkeys (thanks again to ddt <ddt@mirstyle.org>)
+Added Remouk thanks because he is annoying me for it but he did nothing :P
+
+** fluxconf 0.9.3
+
+2003-11-01:
+Added scrollbar to fluxkeys (thanks to ddt <ddt@mirstyle.org>)
+Added Mod4 support (LeftWin key) to fluxkeys
+
+** fluxconf 0.9.2
+
+2002-11-05:
+Some very stupid bug fixed for fluxbare (thanks to Emmanuel le Chevoir
+<manu42@free.fr>)
+Fixed some other bug for fluxbare (when you close fluxkeys or fluxmenu)
+Added FI translation (thanks to Aki Hänninen <aki.hanninen@welho.com>)
+
+** fluxconf 0.9.1
+
+2002-10-31:
+Oouuups ! I forgot to remove some debug stuff in the code, so the locale
+weren't working :( Now it works well :)
+I will take a look later, because the actual solution isn't very clean...
+
+** fluxconf 0.9.0
+
+2002-10-31:
+Fixed the ColPlacementDirection combobox bug (thanks to Stephane Poinsart
+<sart@host.sk> for the bug report)
+Added internationalisation, I sleep then I'll modify the autoconf to reflect
+changes, only french is supported for now.
+
+2002-09-04:
+Changed the startup logo :P
+
+2002-09-03:
+Added support for multi-screen configs, use the -sN command-line parameter
+Added date format changing for fluxconf
+Changed the configure process to better compile on freebsd, pkg-config seems
+to be broken (FreeBSD 4.6), use './configure --without-pkgconfig'
+
+2002-08-14:
+Very small fixe about memory allocation.
+Some important fixes about file reading and grammar (ouch!) (thanks to Simon
+Bowden <simonb@cse.unsw.edu.au>)
+
+2002-07-01:
+Some usefull fixes/code cleans (thanks to Emmanuel le Chevoir <manu42@free.fr>)
+Some quite important fix for fluxmenu.
+
+2002-06-27:
+Now fluxmenu isn't linked if you compiled with Gtk1.x
+Added two entry in fluxconf
+Fixed a small bug common to fluxkeys and fluxmenu
+
+2002-06-20:
+Minor fixe.
+
+2002-06-19:
+Added some functions
+Now Added stuff are inserted more cleverly
+
+2002-06-18:
+Got the "Add **" stuff working.
+Some small bugfixes for fluxmenu and an other for fluxconf & fluxkeys
+Now the files opened in fluxkeys and fluxmenu are those who are in init =)
+
+2002-06-17:
+Got the "del" stuff working.
+Now you can edit labels too :)
+
+2002-06-16:
+Got a working fluxmenu parsing and writing the configuration file.
+
+2002-06-15:
+Started the fluxmenu code, I was without touching Gtk for a while so it's difficult ! :P
+Some cleanups.
+Added some events to fluxkeys
+Best Gtk2 support and better ./configure script.
+
+2002-06-12:
+Support for Gtk2.
+
+2002-06-10:
+Cleaned the package. Now you can build with the ./configure && make && make install method
+Minor bug fixe when having big keybind lines
+
+2002-02-15:
+Minor bug fixe when saving a smaller than original file
+Minor bug fixes (thanks to Steven Murdoch <steven@murdomedia.net>)

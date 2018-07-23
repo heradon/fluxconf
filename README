@@ -1,0 +1,35 @@
+Fluxconf is a graphical (Gtk) application which helps you changing the fluxbox
+configuration. It includes fluxconf, fluxkeys and fluxmenu, one app for the
+base configuration, one other for keybinds configuration, and the last for menu
+edition.
+
+
+HOWTO:
+
+fluxconf:
+	Run fluxconf, then make your changes. When you want to apply your changes
+	press the "Save" button, go to the fluxbox menu (configuration section) and
+	press "Restart". This is needed to make fluxbox reading your changes.
+
+	Once everything I've just wrote is done, you can press
+	"Let fluxbox change the conf" button then quit the app ("Quit" button ;)
+
+fluxkeys:	
+	Nothing complicated, to add a keybind line press the "Add" button, fill the
+	entry as desired. To remove an entry just let the first textbox of the line
+	blank. Once you're done, press "Save" button.
+
+fluxmenu: Gtk2 ONLY !!
+	It's heavily based on drag&drop, you can edit each entry, add or del what you
+	want. "Save" will just save, the changes are made instantly.
+
+
+THANKS:
+
+	To all guys which send me comments/patches, and to the #fluxbox chan on OPN.
+
+
+PROBLEMS:
+
+	If someone get problems compiling this, try with "./configure --without-pkgconfig".
+

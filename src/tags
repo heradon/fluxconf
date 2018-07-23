@@ -1,0 +1,243 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.7	//
+ACLOCAL	Makefile	/^ACLOCAL = ${SHELL} \/goinfre\/fluxconf\/current\/fluxconf-0.9.9\/missing --run aclocal-1.9$/;"	m
+ACLOCAL_M4	Makefile	/^ACLOCAL_M4 = $(top_srcdir)\/aclocal.m4$/;"	m
+ACTLEN	include/defines.h	27;"	d
+ALL_LANG	Makefile	/^ALL_LANG = fr fi$/;"	m
+AMDEP_FALSE	Makefile	/^AMDEP_FALSE = #$/;"	m
+AMDEP_TRUE	Makefile	/^AMDEP_TRUE = $/;"	m
+AMTAR	Makefile	/^AMTAR = ${SHELL} \/goinfre\/fluxconf\/current\/fluxconf-0.9.9\/missing --run tar$/;"	m
+AUTOCONF	Makefile	/^AUTOCONF = ${SHELL} \/goinfre\/fluxconf\/current\/fluxconf-0.9.9\/missing --run autoconf$/;"	m
+AUTOHEADER	Makefile	/^AUTOHEADER = ${SHELL} \/goinfre\/fluxconf\/current\/fluxconf-0.9.9\/missing --run autoheader$/;"	m
+AUTOMAKE	Makefile	/^AUTOMAKE = ${SHELL} \/goinfre\/fluxconf\/current\/fluxconf-0.9.9\/missing --run automake-1.9$/;"	m
+AWK	Makefile	/^AWK = mawk$/;"	m
+CC	Makefile	/^CC = gcc$/;"	m
+CCDEPMODE	Makefile	/^CCDEPMODE = depmode=gcc3$/;"	m
+CCLD	Makefile	/^CCLD = $(CC)$/;"	m
+CFLAGS	Makefile	/^CFLAGS = -g -O2 -DLOCALEDIR=\\"${datarootdir}\/locale\\" -ansi -Wall -W -DGTK2 -I\/usr\/include\/gtk-2.0 -I\/usr\/lib\/gtk-2.0\/include -I\/usr\/include\/atk-1.0 -I\/usr\/include\/cairo -I\/usr\/include\/pango-1.0 -I\/usr\/include\/glib-2.0 -I\/usr\/lib\/glib-2.0\/include -I\/usr\/include\/freetype2 -I\/usr\/include\/libpng12 -I\/usr\/include\/pixman-1  $/;"	m
+COMPILE	Makefile	/^COMPILE = $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) \\$/;"	m
+CONFIG_CLEAN_FILES	Makefile	/^CONFIG_CLEAN_FILES =$/;"	m
+CPP	Makefile	/^CPP = gcc -E$/;"	m
+CPPFLAGS	Makefile	/^CPPFLAGS = $/;"	m
+CTAGS	Makefile	/^CTAGS = ctags$/;"	m
+CYGPATH_W	Makefile	/^CYGPATH_W = echo$/;"	m
+CreateIco	fluxbare.c	/^static GtkWidget * CreateIco(GdkWindow *win, char *label,gchar **zexpm, char prog_number)$/;"	f	file:
+DEFAULT_INCLUDES	Makefile	/^DEFAULT_INCLUDES = -I. -I$(srcdir)$/;"	m
+DEFS	Makefile	/^DEFS = -DPACKAGE_NAME=\\"fluxconf\\" -DPACKAGE_TARNAME=\\"fluxconf\\" -DPACKAGE_VERSION=\\"0.9.9\\" -DPACKAGE_STRING=\\"fluxconf\\ 0.9.9\\" -DPACKAGE_BUGREPORT=\\"\\" -DPACKAGE=\\"fluxconf\\" -DVERSION=\\"0.9.9\\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_STRINGS_H=1 -DENABLE_NLS=1 -DHAVE_GETTEXT=1 -DHAVE_DCGETTEXT=1 -DHAVE_STDLIB_H=1 -DHAVE_MALLOC=1 -DHAVE_MEMSET=1 -DHAVE_STRCASECMP=1$/;"	m
+DEPDIR	Makefile	/^DEPDIR = .deps$/;"	m
+DISTFILES	Makefile	/^DISTFILES = $(DIST_COMMON) $(DIST_SOURCES) $(TEXINFOS) $(EXTRA_DIST)$/;"	m
+DIST_COMMON	Makefile	/^DIST_COMMON = $(srcdir)\/Makefile.am $(srcdir)\/Makefile.in$/;"	m
+DIST_SOURCES	Makefile	/^DIST_SOURCES = $(fluxconf_SOURCES)$/;"	m
+DIST_SUBDIRS	Makefile	/^DIST_SUBDIRS = $(SUBDIRS)$/;"	m
+ECHO_C	Makefile	/^ECHO_C = $/;"	m
+ECHO_N	Makefile	/^ECHO_N = -n$/;"	m
+ECHO_T	Makefile	/^ECHO_T = $/;"	m
+EDITABLE	include/defines.h	/^    EDITABLE,$/;"	e	enum:__anon1
+EGREP	Makefile	/^EGREP = \/bin\/grep -E$/;"	m
+ERRFLUXKEYS	include/defines.h	18;"	d
+ERRFLUXMENU	include/defines.h	13;"	d
+ETAGS	Makefile	/^ETAGS = etags$/;"	m
+EXEEXT	Makefile	/^EXEEXT = $/;"	m
+EXELEN	include/defines.h	28;"	d
+GMSGFMT	Makefile	/^GMSGFMT = \/usr\/bin\/msgfmt$/;"	m
+GREP	Makefile	/^GREP = \/bin\/grep$/;"	m
+GTKCONF	Makefile	/^GTKCONF = $/;"	m
+GTKCONFBSD	Makefile	/^GTKCONFBSD = $/;"	m
+ICONE	include/defines.h	/^    ICONE,$/;"	e	enum:__anon1
+INSTALL	Makefile	/^INSTALL = \/usr\/bin\/install -c$/;"	m
+INSTALL_DATA	Makefile	/^INSTALL_DATA = ${INSTALL} -m 644$/;"	m
+INSTALL_HEADER	Makefile	/^INSTALL_HEADER = $(INSTALL_DATA)$/;"	m
+INSTALL_PROGRAM	Makefile	/^INSTALL_PROGRAM = ${INSTALL}$/;"	m
+INSTALL_SCRIPT	Makefile	/^INSTALL_SCRIPT = ${INSTALL}$/;"	m
+INSTALL_STRIP_PROGRAM	Makefile	/^INSTALL_STRIP_PROGRAM = ${SHELL} $(install_sh) -c -s$/;"	m
+INTLLIBS	Makefile	/^INTLLIBS = $/;"	m
+INTL_MACOSX_LIBS	Makefile	/^INTL_MACOSX_LIBS = $/;"	m
+KEYLEN	include/defines.h	26;"	d
+LDFLAGS	Makefile	/^LDFLAGS =  -lgtk-x11-2.0 -lgdk-x11-2.0 -latk-1.0 -lgdk_pixbuf-2.0 -lm -lpangocairo-1.0 -lpango-1.0 -lcairo -lgobject-2.0 -lgmodule-2.0 -ldl -lglib-2.0  $/;"	m
+LIBICONV	Makefile	/^LIBICONV = -liconv$/;"	m
+LIBINTL	Makefile	/^LIBINTL = $/;"	m
+LIBOBJS	Makefile	/^LIBOBJS = $/;"	m
+LIBS	Makefile	/^LIBS = $/;"	m
+LINK	Makefile	/^LINK = $(CCLD) $(AM_CFLAGS) $(CFLAGS) $(AM_LDFLAGS) $(LDFLAGS) -o $@$/;"	m
+LIT_START	include/defines.h	36;"	d
+LN_S	Makefile	/^LN_S = ln -s$/;"	m
+LTLIBICONV	Makefile	/^LTLIBICONV = -liconv$/;"	m
+LTLIBINTL	Makefile	/^LTLIBINTL = $/;"	m
+LTLIBOBJS	Makefile	/^LTLIBOBJS = $/;"	m
+MAKEINFO	Makefile	/^MAKEINFO = ${SHELL} \/goinfre\/fluxconf\/current\/fluxconf-0.9.9\/missing --run makeinfo$/;"	m
+MAXKEYCOUNT	include/defines.h	30;"	d
+MAXLINELEN	include/defines.h	31;"	d
+MAXMENUDEPTH	include/defines.h	32;"	d
+MKINSTALLDIRS	Makefile	/^MKINSTALLDIRS = $(top_builddir)\/.\/mkinstalldirs$/;"	m
+MSGFMT	Makefile	/^MSGFMT = \/usr\/bin\/msgfmt$/;"	m
+MSGMERGE	Makefile	/^MSGMERGE = \/usr\/bin\/msgmerge$/;"	m
+NB	include/defines.h	25;"	d
+NORMAL_INSTALL	Makefile	/^NORMAL_INSTALL = :$/;"	m
+NORMAL_UNINSTALL	Makefile	/^NORMAL_UNINSTALL = :$/;"	m
+N_COLUMNS	include/defines.h	/^    N_COLUMNS,$/;"	e	enum:__anon1
+OBJEXT	Makefile	/^OBJEXT = o$/;"	m
+PACKAGE	Makefile	/^PACKAGE = fluxconf$/;"	m
+PACKAGE_BUGREPORT	Makefile	/^PACKAGE_BUGREPORT = $/;"	m
+PACKAGE_NAME	Makefile	/^PACKAGE_NAME = fluxconf$/;"	m
+PACKAGE_STRING	Makefile	/^PACKAGE_STRING = fluxconf 0.9.9$/;"	m
+PACKAGE_TARNAME	Makefile	/^PACKAGE_TARNAME = fluxconf$/;"	m
+PACKAGE_VERSION	Makefile	/^PACKAGE_VERSION = 0.9.9$/;"	m
+PATH_SEPARATOR	Makefile	/^PATH_SEPARATOR = :$/;"	m
+PKGCONF	Makefile	/^PKGCONF = \/usr\/bin\/pkg-config$/;"	m
+POST_INSTALL	Makefile	/^POST_INSTALL = :$/;"	m
+POST_UNINSTALL	Makefile	/^POST_UNINSTALL = :$/;"	m
+POSUB	Makefile	/^POSUB = po$/;"	m
+PRE_INSTALL	Makefile	/^PRE_INSTALL = :$/;"	m
+PRE_UNINSTALL	Makefile	/^PRE_UNINSTALL = :$/;"	m
+PROGRAMS	Makefile	/^PROGRAMS = $(bin_PROGRAMS)$/;"	m
+QCM_START	include/defines.h	34;"	d
+QCM_STOP	include/defines.h	35;"	d
+RECURSIVE_TARGETS	Makefile	/^RECURSIVE_TARGETS = all-recursive check-recursive dvi-recursive \\$/;"	m
+SET_MAKE	Makefile	/^SET_MAKE = $/;"	m
+SHELL	Makefile	/^SHELL = \/bin\/bash$/;"	m
+SOURCES	Makefile	/^SOURCES = $(fluxconf_SOURCES)$/;"	m
+STANDALONE	include/defines.h	38;"	d
+STRIP	Makefile	/^STRIP = $/;"	m
+SUBDIRS	Makefile	/^SUBDIRS = $/;"	m
+TITRE	include/defines.h	/^    TITRE,$/;"	e	enum:__anon1
+TYPE	include/defines.h	/^    TYPE,$/;"	e	enum:__anon1
+USE_NLS	Makefile	/^USE_NLS = yes$/;"	m
+VALEUR	include/defines.h	/^    VALEUR,$/;"	e	enum:__anon1
+VERSION	Makefile	/^VERSION = 0.9.9$/;"	m
+XGETTEXT	Makefile	/^XGETTEXT = \/usr\/bin\/xgettext$/;"	m
+_	include/defines.h	4;"	d
+_	include/defines.h	6;"	d
+_FUNCTIONS_H	include/functions.h	13;"	d
+_GLOBALS_H	include/globals.h	12;"	d
+_STRUCTURES_H	include/structures.h	9;"	d
+ac_ct_CC	Makefile	/^ac_ct_CC = gcc$/;"	m
+actions	actions.c	/^char const *actions[] = {$/;"	v
+actlist	fluxconf.c	/^GList *actlist = NULL;$/;"	v
+addexec	fluxmenu.c	/^void addexec(GtkButton * button, GtkWidget *tree)$/;"	f
+addkey	fluxkeys.c	/^void addkey(GtkWidget ** boites)$/;"	f
+addrow	fluxmenu.c	/^void addrow(GtkButton * button, GtkWidget *tree)$/;"	f
+addsub	fluxmenu.c	/^void addsub(GtkButton * button, GtkWidget *tree)$/;"	f
+am__aclocal_m4_deps	Makefile	/^am__aclocal_m4_deps = $(top_srcdir)\/configure.in$/;"	m
+am__cd	Makefile	/^am__cd = CDPATH="$${ZSH_VERSION+.}$(PATH_SEPARATOR)" && cd$/;"	m
+am__configure_deps	Makefile	/^am__configure_deps = $(am__aclocal_m4_deps) $(CONFIGURE_DEPENDENCIES) \\$/;"	m
+am__depfiles_maybe	Makefile	/^am__depfiles_maybe = depfiles$/;"	m
+am__fastdepCC_FALSE	Makefile	/^am__fastdepCC_FALSE = #$/;"	m
+am__fastdepCC_TRUE	Makefile	/^am__fastdepCC_TRUE = $/;"	m
+am__include	Makefile	/^am__include = include$/;"	m
+am__installdirs	Makefile	/^am__installdirs = "$(DESTDIR)$(bindir)"$/;"	m
+am__leading_dot	Makefile	/^am__leading_dot = .$/;"	m
+am__quote	Makefile	/^am__quote = $/;"	m
+am__tar	Makefile	/^am__tar = ${AMTAR} chof - "$$tardir"$/;"	m
+am__untar	Makefile	/^am__untar = ${AMTAR} xf -$/;"	m
+am_fluxconf_OBJECTS	Makefile	/^am_fluxconf_OBJECTS = fluxconf-fluxconf.$(OBJEXT) \\$/;"	m
+analyseit	fluxmenu.c	/^void analyseit(GtkTreeIter iter, int indent, FILE * fd)$/;"	f
+binPROGRAMS_INSTALL	Makefile	/^binPROGRAMS_INSTALL = $(INSTALL_PROGRAM)$/;"	m
+bin_PROGRAMS	Makefile	/^bin_PROGRAMS = fluxconf$(EXEEXT)$/;"	m
+bindir	Makefile	/^bindir = ${exec_prefix}\/bin$/;"	m
+build	Makefile	/^build = i686-pc-linux-gnu$/;"	m
+build_alias	Makefile	/^build_alias = $/;"	m
+build_cpu	Makefile	/^build_cpu = i686$/;"	m
+build_os	Makefile	/^build_os = linux-gnu$/;"	m
+build_triplet	Makefile	/^build_triplet = i686-pc-linux-gnu$/;"	m
+build_vendor	Makefile	/^build_vendor = pc$/;"	m
+cell_edited	fluxmenu.c	/^void cell_edited(GtkCellRendererText * cell, gchar * path_string, gchar * new_text)$/;"	f
+checkptr	fluxbare.c	/^void checkptr(void *ptr)$/;"	f
+dad	fluxmenu.c	/^GtkTreeIter dad[MAXMENUDEPTH];$/;"	v
+datadir	Makefile	/^datadir = ${datarootdir}$/;"	m
+datarootdir	Makefile	/^datarootdir = ${prefix}\/share$/;"	m
+delkey	fluxkeys.c	/^void delkey(GtkButton *button, gpointer data)$/;"	f
+depcomp	Makefile	/^depcomp = $(SHELL) $(top_srcdir)\/depcomp$/;"	m
+die	include/defines.h	9;"	d
+docdir	Makefile	/^docdir = ${datarootdir}\/doc\/${PACKAGE_TARNAME}$/;"	m
+dvidir	Makefile	/^dvidir = ${docdir}$/;"	m
+exec_prefix	Makefile	/^exec_prefix = ${prefix}$/;"	m
+expandFilename	fluxbare.c	/^char *expandFilename(char *filename)$/;"	f
+fillmenu	fluxmenu.c	/^GtkWidget *fillmenu(void)$/;"	f
+firstword	fluxkeys.c	/^char *firstword(char *word, int *offset)$/;"	f
+fluxbare	fluxbare.c	/^int fluxbare(int argc, char **argv, char standalone)$/;"	f
+fluxconf	fluxconf.c	/^int fluxconf(int argc, char **argv, char standalone)$/;"	f
+fluxconf_CFLAGS	Makefile	/^fluxconf_CFLAGS = -Iinclude\/ -Ixpm\/ -ggdb -D_GNU_SOURCE -Werror$/;"	m
+fluxconf_INCLUDES	Makefile	/^fluxconf_INCLUDES = include\/globals.h include\/defines.h include\/functions.h xpm\/dalogo.h xpm\/fc_menu.xpm xpm\/fc_keys.xpm xpm\/fc_conf.xpm$/;"	m
+fluxconf_LDADD	Makefile	/^fluxconf_LDADD = $(LDADD)$/;"	m
+fluxconf_OBJECTS	Makefile	/^fluxconf_OBJECTS = $(am_fluxconf_OBJECTS)$/;"	m
+fluxconf_SOURCES	Makefile	/^fluxconf_SOURCES = fluxconf.c fluxmenu.c fluxkeys.c fluxbare.c actions.c $/;"	m
+fluxconf_xpm	xpm/dalogo.h	/^static char * fluxconf_xpm[] = {$/;"	v
+fluxkeys	fluxkeys.c	/^int fluxkeys(int argc, char **argv, char standalone)$/;"	f
+fluxmenu	fluxmenu.c	/^int fluxmenu(int argc, char **argv, char standalone)$/;"	f
+getthings	fluxkeys.c	/^char *getthings(char *word, int *mod, char *thekey)$/;"	f
+hide	fluxbare.c	/^int hide(GtkWidget * wid)$/;"	f
+host	Makefile	/^host = i686-pc-linux-gnu$/;"	m
+host_alias	Makefile	/^host_alias = $/;"	m
+host_cpu	Makefile	/^host_cpu = i686$/;"	m
+host_os	Makefile	/^host_os = linux-gnu$/;"	m
+host_triplet	Makefile	/^host_triplet = i686-pc-linux-gnu$/;"	m
+host_vendor	Makefile	/^host_vendor = pc$/;"	m
+htmldir	Makefile	/^htmldir = ${docdir}$/;"	m
+includedir	Makefile	/^includedir = ${prefix}\/include$/;"	m
+infodir	Makefile	/^infodir = ${datarootdir}\/info$/;"	m
+install_sh	Makefile	/^install_sh = \/goinfre\/fluxconf\/current\/fluxconf-0.9.9\/install-sh$/;"	m
+install_sh_DATA	Makefile	/^install_sh_DATA = $(install_sh) -c -m 644$/;"	m
+install_sh_PROGRAM	Makefile	/^install_sh_PROGRAM = $(install_sh) -c$/;"	m
+install_sh_SCRIPT	Makefile	/^install_sh_SCRIPT = $(install_sh) -c$/;"	m
+l	include/structures.h	/^    int l;$/;"	m	struct:s_widgets
+libdir	Makefile	/^libdir = ${exec_prefix}\/lib$/;"	m
+libexecdir	Makefile	/^libexecdir = ${exec_prefix}\/libexec$/;"	m
+list	Makefile	/^	list='$(DIST_SUBDIRS)'; for subdir in $$list; do \\$/;"	m
+localedir	Makefile	/^localedir = ${datarootdir}\/locale$/;"	m
+localstatedir	Makefile	/^localstatedir = ${prefix}\/var$/;"	m
+main	fluxbare.c	/^int main(int argc, char **argv)$/;"	f
+mainvbox	fluxconf.c	/^GtkWidget *mainvbox = NULL;$/;"	v
+makeitems	fluxbare.c	/^void makeitems(char screen)$/;"	f
+makesplash	fluxbare.c	/^void makesplash(void)$/;"	f
+mandir	Makefile	/^mandir = ${datarootdir}\/man$/;"	m
+mkdir_p	Makefile	/^mkdir_p = mkdir -p --$/;"	m
+mkinstalldirs	Makefile	/^mkinstalldirs = $(SHELL) $(top_srcdir)\/mkinstalldirs$/;"	m
+msgs	fluxconf.c	/^char **msgs = NULL;$/;"	v
+name	include/structures.h	/^	char * name;$/;"	m	struct:s_programs
+nblignes	fluxconf.c	/^int nblignes;$/;"	v
+newchoice	fluxconf.c	/^GtkWidget *newchoice(char *lbl, char *val, GList * liste, char *tipmsg, GtkTooltips * tips)$/;"	f
+newkey	fluxkeys.c	/^GtkWidget *newkey(int Ctrl, int Alt, int Shift, int Win, GList * liste, char *value, char *touche, char *execcmd)$/;"	f
+newlitteral	fluxconf.c	/^GtkWidget *newlitteral(char *lbl, char *val, char *tipmsg, GtkTooltips * tips)$/;"	f
+newparam	fluxconf.c	/^GtkWidget *newparam(char *lbl, int val, int max, char *tipmsg, GtkTooltips * tips)$/;"	f
+oldincludedir	Makefile	/^oldincludedir = \/usr\/include$/;"	m
+parseline	fluxmenu.c	/^void parseline(char *in, char **one, char **two, char **three, char **four)$/;"	f
+pdfdir	Makefile	/^pdfdir = ${docdir}$/;"	m
+pkgdatadir	Makefile	/^pkgdatadir = $(datadir)\/fluxconf$/;"	m
+pkgincludedir	Makefile	/^pkgincludedir = $(includedir)\/fluxconf$/;"	m
+pkglibdir	Makefile	/^pkglibdir = $(libdir)\/fluxconf$/;"	m
+prefix	Makefile	/^prefix = \/usr\/local$/;"	m
+proglist	fluxbare.c	/^static struct s_programs proglist[] = {$/;"	v	typeref:struct:s_programs	file:
+program_run	fluxbare.c	/^void program_run(int argc, char *argv[], char standalone)$/;"	f
+program_transform_name	Makefile	/^program_transform_name = s,x,x,$/;"	m
+psdir	Makefile	/^psdir = ${docdir}$/;"	m
+s	fluxconf.c	/^struct s_widgets s[NB];$/;"	v	typeref:struct:s_widgets
+s_programs	include/structures.h	/^struct s_programs {$/;"	s
+s_widgets	include/structures.h	/^struct s_widgets {$/;"	s
+sauver	fluxconf.c	/^void sauver(GtkButton * button, char **laliste) \/* FIXME without first parameter function hangs ... *\/$/;"	f
+savekeys	fluxkeys.c	/^void savekeys(GtkButton *button, GtkBox ** boites) \/* FIXME GtkButton *button is for compatibility reason *\/$/;"	f
+savemenu	fluxmenu.c	/^void savemenu(void)$/;"	f
+sbindir	Makefile	/^sbindir = ${exec_prefix}\/sbin$/;"	m
+screenparse	fluxbare.c	/^char screenparse(int argc, char *argv[])$/;"	f
+sharedstatedir	Makefile	/^sharedstatedir = ${prefix}\/com$/;"	m
+show	fluxbare.c	/^int show(GtkWidget * wid)$/;"	f
+size_group	fluxconf.c	/^GtkSizeGroup *size_group = NULL;$/;"	v
+srcdir	Makefile	/^srcdir = .$/;"	m
+start	include/structures.h	/^	int (*start)(int argc, char *argv[], char standalone);$/;"	m	struct:s_programs
+start_it	fluxbare.c	/^static void start_it(GtkButton * button, char what)$/;"	f	file:
+store	fluxmenu.c	/^GtkTreeStore *store;$/;"	v
+subdir	Makefile	/^subdir = src$/;"	m
+superchmod	fluxconf.c	/^void superchmod(void)$/;"	f
+supprow	fluxmenu.c	/^void supprow(GtkButton * button, GtkWidget *tree)$/;"	f
+sysconfdir	Makefile	/^sysconfdir = ${prefix}\/etc$/;"	m
+target_alias	Makefile	/^target_alias = $/;"	m
+top_builddir	Makefile	/^top_builddir = ..$/;"	m
+top_srcdir	Makefile	/^top_srcdir = ..$/;"	m
+transform	Makefile	/^transform = $(program_transform_name)$/;"	m
+usage	fluxbare.c	/^void usage(char const *progname, int errorcode)$/;"	f
+val	include/structures.h	/^    int val;$/;"	m	struct:s_widgets
+value	include/structures.h	/^    char * value;$/;"	m	struct:s_widgets
+wid	include/structures.h	/^    GtkWidget *wid;$/;"	m	struct:s_widgets
